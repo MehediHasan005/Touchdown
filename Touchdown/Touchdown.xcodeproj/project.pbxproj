@@ -14,6 +14,10 @@
 		558B8EB9293338BF0064FEC1 /* TouchdownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558B8EB8293338BF0064FEC1 /* TouchdownTests.swift */; };
 		558B8EC3293338BF0064FEC1 /* TouchdownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558B8EC2293338BF0064FEC1 /* TouchdownUITests.swift */; };
 		558B8EC5293338BF0064FEC1 /* TouchdownUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558B8EC4293338BF0064FEC1 /* TouchdownUITestsLaunchTests.swift */; };
+		558B8ED6293339D90064FEC1 /* category.json in Resources */ = {isa = PBXBuildFile; fileRef = 558B8ED2293339D90064FEC1 /* category.json */; };
+		558B8ED7293339D90064FEC1 /* product.json in Resources */ = {isa = PBXBuildFile; fileRef = 558B8ED3293339D90064FEC1 /* product.json */; };
+		558B8ED8293339D90064FEC1 /* brand.json in Resources */ = {isa = PBXBuildFile; fileRef = 558B8ED4293339D90064FEC1 /* brand.json */; };
+		558B8ED9293339D90064FEC1 /* player.json in Resources */ = {isa = PBXBuildFile; fileRef = 558B8ED5293339D90064FEC1 /* player.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		558B8EBE293338BF0064FEC1 /* TouchdownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchdownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		558B8EC2293338BF0064FEC1 /* TouchdownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchdownUITests.swift; sourceTree = "<group>"; };
 		558B8EC4293338BF0064FEC1 /* TouchdownUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchdownUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		558B8ED2293339D90064FEC1 /* category.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = category.json; sourceTree = "<group>"; };
+		558B8ED3293339D90064FEC1 /* product.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = product.json; sourceTree = "<group>"; };
+		558B8ED4293339D90064FEC1 /* brand.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = brand.json; sourceTree = "<group>"; };
+		558B8ED5293339D90064FEC1 /* player.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = player.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,7 @@
 		558B8EA6293338BE0064FEC1 /* Touchdown */ = {
 			isa = PBXGroup;
 			children = (
+				558B8ED1293339C80064FEC1 /* Data */,
 				558B8EA7293338BE0064FEC1 /* TouchdownApp.swift */,
 				558B8EA9293338BE0064FEC1 /* ContentView.swift */,
 				558B8EAB293338BF0064FEC1 /* Assets.xcassets */,
@@ -125,6 +134,17 @@
 				558B8EC4293338BF0064FEC1 /* TouchdownUITestsLaunchTests.swift */,
 			);
 			path = TouchdownUITests;
+			sourceTree = "<group>";
+		};
+		558B8ED1293339C80064FEC1 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				558B8ED4293339D90064FEC1 /* brand.json */,
+				558B8ED2293339D90064FEC1 /* category.json */,
+				558B8ED5293339D90064FEC1 /* player.json */,
+				558B8ED3293339D90064FEC1 /* product.json */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +251,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				558B8ED9293339D90064FEC1 /* player.json in Resources */,
+				558B8ED6293339D90064FEC1 /* category.json in Resources */,
+				558B8ED8293339D90064FEC1 /* brand.json in Resources */,
+				558B8ED7293339D90064FEC1 /* product.json in Resources */,
 				558B8EAF293338BF0064FEC1 /* Preview Assets.xcassets in Resources */,
 				558B8EAC293338BF0064FEC1 /* Assets.xcassets in Resources */,
 			);
